@@ -1,3 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth!important;
+}
+
+@layer base {
+  main {
+    @apply bg-[#f8fafb] tracking-wide
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold
+  } 
+
+  h1 {
+    @apply text-3xl sm:text-4xl md:text-5xl
+  }
+
+  h2 {
+    @apply text-2xl sm:text-3xl md:text-4xl
+  }
+
+  li {
+    @apply cursor-pointer
+  }
+
+  button {
+    @apply shadow-lg shadow-gray-400 rounded-md uppercase bg-gradient-to-r from-[#7862ea] to-[#aba1f7] text-white
+  }
+}
+
 html,
 body {
   padding: 0;
@@ -15,12 +49,8 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+
+@font-face {
+  font-family: "burtons";
+  src: url('../public/Burtons.otf');
 }
