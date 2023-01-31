@@ -1,6 +1,19 @@
 import React from 'react';
 import Image from "next/image";
-
+import java from "../public/skills/java-logo.png";
+import c from "../public/skills/c-logo.png";
+import cpp from "../public/skills/cpp-logo.png";
+import css from "../public/skills/css-logo.png";
+import flask from "../public/skills/flask-logo.png";
+import html from "../public/skills/html-logo.png";
+import js from "../public/skills/js-logo.png";
+import jsx from "../public/skills/jsx-logo.png";
+import php from "../public/skills/php-logo.png";
+import python from "../public/skills/python-logo.png";
+import react from "../public/skills/react-logo.png";
+import spring from "../public/skills/spring-logo.png";
+import sql from "../public/skills/sql-logo.png";
+import tailwind from "../public/skills/tailwind-logo.png";
 
 const Skills = () => {
     return (
@@ -13,7 +26,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/java-logo.png' width='112' height='112' alt='java-logo' />
+                                <Image src={java} width='112' height='112' alt='java-logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>Java</h3>
@@ -24,7 +37,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/python-logo.png' width='112' height='112' alt='python-logo' />
+                                <Image src={python} width='112' height='112' alt='python-logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>Python</h3>
@@ -35,7 +48,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/html-logo.png' width='112' height='112' alt='html-logo' />
+                                <Image src={html} width='112' height='112' alt='html-logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>HTML</h3>
@@ -46,7 +59,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/php-logo.png' width='112' height='112' alt='php-logo' />
+                                <Image src={php} width='112' height='112' alt='php-logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>PHP</h3>
@@ -57,7 +70,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/css-logo.png' width='112' height='112' alt='css-logo' />
+                                <Image src={css} width='112' height='112' alt='css-logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>CSS</h3>
@@ -68,7 +81,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/js-logo.png' width='112' height='112' alt='Javascript-logo' />
+                                <Image src={js} width='112' height='112' alt='Javascript-logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>Javascript</h3>
@@ -79,7 +92,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/jsx-logo.png' width='112' height='112' alt='jsx-logo' />
+                                <Image src={jsx} width='112' height='112' alt='jsx-logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>JSX</h3>
@@ -90,7 +103,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/sql-logo.png' width='112' height='112' alt='sql-logo' />
+                                <Image src={sql} width='112' height='112' alt='sql-logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>SQL</h3>
@@ -101,7 +114,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/cpp-logo.png' width='112' height='112' alt='c++ logo' />
+                                <Image src={cpp} width='112' height='112' alt='c++ logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>C++</h3>
@@ -112,7 +125,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/c-logo.png' width='112' height='112' alt='c-logo' />
+                                <Image src={c} width='112' height='112' alt='c-logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>C</h3>
@@ -128,7 +141,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/spring-logo.png' width='112' height='112' alt='springboot-logo' />
+                                <Image src={spring} width='112' height='112' alt='springboot-logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>Springboot</h3>
@@ -139,7 +152,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/react-logo.png' width='112' height='112' alt='react-logo' />
+                                <Image src={react} width='112' height='112' alt='react-logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>React</h3>
@@ -150,7 +163,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/flask-logo.png' width='112' height='112' alt='flask-logo' />
+                                <Image src={flask} width='112' height='112' alt='flask-logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>Flask</h3>
@@ -161,7 +174,7 @@ const Skills = () => {
                     <div className='p-4 shadow-md rounded-md hover:scale-105 ease-in duration-200'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src='/../public/skills/tailwind-logo.png' width='112' height='112' alt='tailwind-logo' />
+                                <Image src={tailwind} width='112' height='112' alt='tailwind-logo' />
                             </div>
                             <div className='flex flex-col items-center justify-center mt-2'>
                                 <h3 className='text-xl font-medium'>Tailwind CSS</h3>
