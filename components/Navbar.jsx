@@ -97,7 +97,7 @@ const Navbar = () => {
                             </ul>
                             <div className='pt-28'>
                                 <p className='uppercase tracking-widest'>Let's Connect</p>
-                                <div className='text-3xl flex gap-x-2 mt-6 items-center justify-between w-full sm:w-[80%]'>
+                                <div className='text-3xl flex gap-x-4 mt-6 items-center justify-between w-full sm:w-[80%]'>
                                     <a 
                                     href='https://www.linkedin.com/in/sai-sreshtaa-turaga'
                                     target='_blank'
@@ -113,10 +113,15 @@ const Navbar = () => {
                                         <div className='rounded-full shadow-md shadow-gray-400 p-2 cursor-pointer hover:scale-105 ease-in duration-300'>
                                             <AiFillGithub />
                                         </div>
-                                    </a>                                   
-                                    {/* <div className='rounded-full shadow-md shadow-gray-400 p-2 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                        <AiOutlineMail />
-                                    </div> */}
+                                    </a>
+                                    <a 
+                                    href='mailto:sreshtaa.t@gmail.com'
+                                    target='_blank'
+                                    rel='noreferrer'>
+                                        <div className='rounded-full shadow-md shadow-gray-400 p-2 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                            <AiOutlineMail />
+                                        </div>
+                                    </a>                                                                        
                                 </div>
                             </div>
                         </div>

@@ -14,7 +14,7 @@ const About = () => {
           <br/>I also enjoy video-editing and digital art :)
         </span>
         <p className='uppercase tracking-widest mt-10 font-semibold text-[#5337e2]'>Let's Connect</p>
-        <div className='text-3xl gap-x-12 flex mt-5 items-center'>
+        <div className='text-3xl gap-x-6 flex mt-5 items-center'>
           <a 
             href='https://www.linkedin.com/in/sai-sreshtaa-turaga'
             target='_blank'
@@ -31,9 +31,14 @@ const About = () => {
                 <AiFillGithub />
               </div>
           </a>
-          {/* <div className='bg-white rounded-full shadow-sm shadow-gray-400 p-2 cursor-pointer hover:scale-105 ease-in duration-200'>
-            <AiOutlineMail />
-          </div> */}
+          <a 
+            href='mailto:sreshtaa.t@gmail.com'
+            target='_blank'
+            rel='noreferrer'>
+              <div className='bg-white rounded-full shadow-sm shadow-gray-400 p-2 cursor-pointer hover:scale-105 ease-in duration-200'>
+                <AiOutlineMail />
+              </div>
+          </a>  
         </div>              
       </div>  
       <div className='mt-32'>
