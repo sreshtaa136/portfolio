@@ -4,6 +4,8 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillLinkedin, AiFillGithub, AiOutlineMenu, AiOutlineClose, AiOutlineMail} from 'react-icons/ai';
 import {useState, useEffect} from 'react';
 import {useRouter} from 'next/router';
+import Image from "next/image";
+import hello from "../public/hello-letters.png";
 
 
 const Navbar = () => {
@@ -48,19 +50,20 @@ const Navbar = () => {
 
     return (
         // w-full shadow-md left-0 py-5 flex mb-14
-        <div style={{ backgroundColor: `${navBg}` }} className='fixed w-full shadow-md py-5 z-[100] h-16'>
-            <ul style={{ color: `${linkColor}` }} className='hidden md:flex text-md tracking-widest justify-left'>                         
+        <div style={{ backgroundColor: `${navBg}` }} className='fixed w-full shadow-md z-[100] h-16'>
+            <ul style={{ color: `${linkColor}` }} className='hidden md:flex py-2 text-md tracking-widest justify-left'>                         
+                <div className='ml-10 mt-2'><Image src={hello} width='150' height='200' /></div>
                 <Link href='/#about'>
-                <li className='text-md ml-48 hover:scale-105 duration-100'>About</li>
+                <li className='text-lg ml-36 hover:scale-105 duration-100 p-3 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600'>About</li>
                 </Link>
                 <Link href='/#skills'>
-                <li className='text-md ml-48 hover:scale-105 duration-100'>Skills</li>
+                <li className='text-lg ml-36 hover:scale-105 duration-100 p-3 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600'>Skills</li>
                 </Link>
                 <Link href='/#projects'>
-                <li className='text-md ml-48 hover:scale-105 duration-100'>Projects</li>
-                </Link>                     
+                <li className='text-lg ml-36 hover:scale-105 duration-100 p-3 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600'>Projects</li>
+                </Link>                                  
             </ul>
-
+            
             {/* 000000, EDB5BD, 9C9CDD, BEDFD4 */}
             {/* <div className='hidden md:flex flex-row-reverse w-full'>
                 <BsFillMoonStarsFill className='cursor-pointer text-2xl hover:text-[#9C9CDD]'
