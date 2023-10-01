@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth!important;
+  background-color: #f8fafb;
 }
 
 @layer base {
